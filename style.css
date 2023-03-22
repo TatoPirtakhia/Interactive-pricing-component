@@ -142,8 +142,7 @@ a {
 body {
   background-image: url("./images/bg-pattern.svg");
   background-repeat: no-repeat;
-  padding-top: 50px;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -383,7 +382,7 @@ header {
     width: 445px;
   }
   body {
-    background-size: 100% 400px;
+    background-size: 100% 450px;
   }
   .billing_button_mobile {
     display: none;
