@@ -433,6 +433,7 @@ header {
     display: none;
   }
   .Pageviews_price {
+    margin-bottom: 0;
     width: 445px;
     display: flex;
     align-items: center;
@@ -449,9 +450,6 @@ header {
     letter-spacing: 2px;
   }
 
-  .Pageviews_price {
-    margin-bottom: 25px;
-  }
   .input {
     width: 445px;
   }
