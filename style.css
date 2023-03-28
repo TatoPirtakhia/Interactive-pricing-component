@@ -441,6 +441,9 @@ header {
   .Pageviews_price p {
     font-size: 16px;
   }
+  .pageView{
+    font-size: 16px !important;
+  }
   .Pageviews_price span {
     font-size: 40px;
   }
@@ -492,7 +495,10 @@ header {
     flex-direction: column;
     gap: 11px;
   }
-  .mobile_switch:hover {
+  .mobile_switch:hover{
+    background-color: #7aeadf;
+  }
+  .desktop_switch{
     background-color: #7aeadf;
     padding-left: 25px;
     padding-top: 4px;
