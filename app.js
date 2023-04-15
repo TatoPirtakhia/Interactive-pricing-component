@@ -2,10 +2,16 @@ const slideRange = document.querySelector(".slider");
 const perMonth = document.querySelectorAll(".perMonth");
 const pageView = document.querySelector(".pageView");
 const discount = document.querySelector(".mobile_switch");
+
+const slider = document.querySelector(".slider");
+
 let value = 0;
 
 slideRange.addEventListener("input", (event) => {
   calculate(event.target.value);
+  slideRange.style.background = `linear-gradient(to right, #A4F3EB 0%, #A4F3EB ${
+    event.target.value * 25 -25
+  }%, #FFFFFF 0%, #FFFFFF 100%)`;
 });
 discount.addEventListener("click", () => {
   discount.classList.toggle("desktop_switch");
